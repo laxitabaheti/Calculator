@@ -14,29 +14,27 @@
   </head>
 
   <body>
-    <div class="main">
-      <div class="input">
-        <input id="num1" class="num1" />
-        <input id="num2" class="num2" />
+    <div class="main">       
+      <div>
+        <input id="num1" title="First Input" class="num" />
+        <input id="num2" title="Second input" class="num" />
       </div>
-      <div class="output">
-        <span id="result"> </span><br />
+      <div>
+        <span id="result" class="num" title="Output">
+        </span>        
       </div>
-      <div class="op">
+
+      <div class="operators">
         <button type="button" class="button" onclick="addition1()">+</button>
         <button type="button" class="button" onclick="subtraction1()">-</button>
         <button type="button" class="button" onclick="multiplication1()">
-          x
+        x
         </button>
         <button type="button" class="button" onclick="exponention1()">^</button>
         <button type="button" class="button" onclick="division1()">/</button>
         <button type="button" class="button" onclick="modulus1()">%</button>
       </div>
-      <p></p>
-      <p></p>
-      <p></p>
-
-    </div>
+</div>
 
     <script src="src/index.js">
 
